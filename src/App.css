@@ -32,7 +32,39 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.header {
+  background-color: #ffffff;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.country {
+  margin-right: 40px;
+  font-weight: 700;
+}
+
+#map {
+  padding: 10px;
+}
+
+
+.info-name {
+  font-weight: 900;
+}
+
+.info-container {
+  width: 20%;
+  background-color: aquamarine;
+  z-index: 100;
+  top:0;
+  bottom:0;
+  
+
 }
